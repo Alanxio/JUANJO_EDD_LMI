@@ -1,0 +1,22 @@
+site_name: 'Documentació de les tasques'
+theme:
+  name: 'mkdocs'
+
+
+extra_css:
+  - 'overrides/extra.css'
+
+nav:
+  - Inici: index.md
+  - Articles EDD:
+    - Caracteristcas de documentos: edd/document_1.md
+    - Desenvolupament d'una App: edd/document_2.md
+    - Exemples de traducció: edd/document_3.md
+    - L'efecte Bola de neu: edd/document_4.md
+    - Projecte de Desenvolupament d'una Pàgina Web: edd/document_5.md
+    - Scrum: edd/document_6.md
+
+  - Articles LMI:
+    - Caract. Lenguajes de Marcas: lmi/Caract._LenguajeMarcas.md
+    - Espais de noms en documents: lmi/espaisnoms.md
+
