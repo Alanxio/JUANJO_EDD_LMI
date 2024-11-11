@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>L'efecte Bola de neu - Documentació de les tasques</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../overrides/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Documentació de les tasques</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Inici</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Articles EDD</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../document_1/" class="dropdown-item">Caracteristcas de documentos</a>
+</li>
+                                    
+<li>
+    <a href="../document_2/" class="dropdown-item">Desenvolupament d'una App</a>
+</li>
+                                    
+<li>
+    <a href="../document_3/" class="dropdown-item">Exemples de traducció</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">L'efecte Bola de neu</a>
+</li>
+                                    
+<li>
+    <a href="../document_5/" class="dropdown-item">Projecte de Desenvolupament d'una Pàgina Web</a>
+</li>
+                                    
+<li>
+    <a href="../document_6/" class="dropdown-item">Scrum</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Articles LMI</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../lmi/Caract._LenguajeMarcas/" class="dropdown-item">Caract. Lenguajes de Marcas</a>
+</li>
+                                    
+<li>
+    <a href="../../lmi/espaisnoms/" class="dropdown-item">Espais de noms en documents</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../document_3/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../document_5/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#efecte-bola-de-neu-en-el-desenvolupament-dentorns-informatics" class="nav-link">Efecte Bola de Neu en el Desenvolupament d'Entorns Informàtics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="efecte-bola-de-neu-en-el-desenvolupament-dentorns-informatics"><strong>Efecte Bola de Neu en el Desenvolupament d'Entorns Informàtics</strong></h2>
+<p>L'efecte bola de neu en desenvolupament informàtic descriu com petits problemes o decisions poden créixer exponencialment i generar complicacions majors al llarg del projecte. Aquest fenomen es manifesta especialment en les àrees següents:</p>
+<ul>
+<li>
+<p><strong>Deute tècnic</strong>: Errors de disseny o codi poc net a les primeres fases poden acumular-se, fent que el codi es torni ineficient i difícil de mantenir, exigint una major inversió de temps i recursos per solucionar-ho en el futur.</p>
+</li>
+<li>
+<p><strong>Escalabilitat</strong>: Sistemes que no es dissenyen amb l’escalabilitat en ment poden trobar problemes greus de rendiment a mesura que la base d’usuaris o el volum de dades augmenta, causant colls d’ampolla.</p>
+</li>
+<li>
+<p><strong>Seguretat</strong>: Vulnerabilitats menors ignorades poden convertir-se en greus amenaces a mesura que el projecte avança, deixant el sistema exposat a atacs.</p>
+</li>
+<li>
+<p><strong>Dependències</strong>: Actualitzacions o incompatibilitats en biblioteques externes poden requerir canvis en múltiples components del sistema, amplificant l'impacte d'un petit canvi.</p>
+</li>
+</ul>
+<h3 id="com-mitigar-lefecte-bola-de-neu"><strong>Com Mitigar l'Efecte Bola de Neu</strong></h3>
+<ul>
+<li><strong>Disseny escalable</strong> des de l'inici.</li>
+<li><strong>Refactorització contínua</strong> del codi per mantenir-lo net i fàcil de mantenir.</li>
+<li><strong>Gestió del deute tècnic</strong> de manera proactiva.</li>
+<li>Realització de <strong>tests</strong> periòdics per garantir la seguretat i el bon funcionament del sistema.</li>
+</ul>
+<p>Aquestes pràctiques ajuden a controlar l'efecte bola de neu i evitar que petits problemes es converteixin en fallades greus durant el desenvolupament.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

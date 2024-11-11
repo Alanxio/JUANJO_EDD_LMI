@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Espais de noms en documents - Documentació de les tasques</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../overrides/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Documentació de les tasques</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Inici</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Articles EDD</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../edd/document_1/" class="dropdown-item">Caracteristcas de documentos</a>
+</li>
+                                    
+<li>
+    <a href="../../edd/document_2/" class="dropdown-item">Desenvolupament d'una App</a>
+</li>
+                                    
+<li>
+    <a href="../../edd/document_3/" class="dropdown-item">Exemples de traducció</a>
+</li>
+                                    
+<li>
+    <a href="../../edd/document_4/" class="dropdown-item">L'efecte Bola de neu</a>
+</li>
+                                    
+<li>
+    <a href="../../edd/document_5/" class="dropdown-item">Projecte de Desenvolupament d'una Pàgina Web</a>
+</li>
+                                    
+<li>
+    <a href="../../edd/document_6/" class="dropdown-item">Scrum</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Articles LMI</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Caract._LenguajeMarcas/" class="dropdown-item">Caract. Lenguajes de Marcas</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Espais de noms en documents</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Caract._LenguajeMarcas/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#identificacio-dels-espais-de-noms-en-documents-xml" class="nav-link">Identificació dels espais de noms en documents XML</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#espais-de-noms-a-androidmanifestxml" class="nav-link">Espais de noms a AndroidManifest.xml</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="identificacio-dels-espais-de-noms-en-documents-xml"><strong>Identificació dels espais de noms en documents XML</strong></h2>
+<h3 id="que-es-un-espai-de-noms-namespace"><strong>Què és un espai de noms (namespace)?</strong></h3>
+<p>Un espai de noms en XML serveix per evitar conflictes d'etiquetes quan es fan servir diferents vocabularis o conjunts d'elements en un mateix document. S'identifiquen mitjançant URI (Uniform Resource Identifier) i es declaren habitualment en l'etiqueta arrel del document.</p>
+<h3 id="com-es-defineixen-els-espais-de-noms"><strong>Com es defineixen els espais de noms?</strong></h3>
+<p>Els espais de noms es declaren amb l'atribut <code>xmlns</code> seguit d'un prefix opcional. Aquest atribut indica que tots els elements i atributs sota el document utilitzaran un espai de noms específic.</p>
+<pre><code class="language-xml">&lt;elemento xmlns=&quot;http://exemple.com/namespace&quot;&gt;
+    &lt;!-- El contingut utilitza l'espai de noms especificat --&gt;
+&lt;/elemento&gt;
+</code></pre>
+<p>Els espais de noms amb prefix es defineixen així:</p>
+<pre><code class="language-xml">&lt;elemento xmlns:prefix=&quot;http://exemple.com/namespace&quot;&gt;
+    &lt;prefix:subelemento&gt;Contingut&lt;/prefix:subelemento&gt;
+&lt;/elemento&gt;
+</code></pre>
+<hr />
+<h2 id="espais-de-noms-a-androidmanifestxml"><strong>Espais de noms a <code>AndroidManifest.xml</code></strong></h2>
+<p>En Android, l'<code>AndroidManifest.xml</code> defineix la informació bàsica d'una aplicació, i utilitza diversos espais de noms per a diferents conjunts d'atributs i elements.</p>
+<h3 id="exemple-basic-dun-androidmanifestxml"><strong>Exemple bàsic d'un <code>AndroidManifest.xml</code></strong></h3>
+<pre><code class="language-xml">&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;com.exemple.aplicacio&quot;&gt;
+
+    &lt;application
+        android:label=&quot;@string/app_name&quot;
+        android:icon=&quot;@mipmap/ic_launcher&quot;&gt;
+
+        &lt;activity android:name=&quot;.MainActivity&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+</code></pre>
+<h3 id="espais-de-noms-utilitzats-en-androidmanifestxml"><strong>Espais de noms utilitzats en AndroidManifest.xml</strong></h3>
+<ol>
+<li><strong>Espai de noms "android" (<code>xmlns:android</code>)</strong></li>
+<li><strong>Declaració</strong>: <code>xmlns:android="http://schemas.android.com/apk/res/android"</code></li>
+<li><strong>Funció</strong>: S'utilitza per a tots els atributs relacionats amb Android, com ara <code>android:label</code>, <code>android:icon</code>, <code>android:name</code>, entre d'altres.</li>
+<li>
+<p><strong>Atributs comuns</strong>:</p>
+<ul>
+<li><code>android:label</code>: Defineix el nom que es mostra per a l'aplicació.</li>
+<li><code>android:icon</code>: Defineix la icona de l'aplicació.</li>
+<li><code>android:name</code>: S'utilitza per definir el nom complet d'una activitat, servei, etc.</li>
+</ul>
+</li>
+<li>
+<p><strong>Espai de noms per a altres biblioteques o frameworks</strong></p>
+</li>
+<li>Quan s'integren biblioteques de tercers o frameworks, es poden definir altres espais de noms per a aquestes extensions. Per exemple, si una aplicació fa servir el suport de la biblioteca <code>tools</code>, es podria declarar un espai de noms addicional.</li>
+</ol>
+<p>```xml
+   <manifest xmlns:tools="http://schemas.android.com/tools"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       package="com.exemple.aplicacio"></p>
+<pre><code>   &lt;application
+       android:label="@string/app_name"
+       android:icon="@mipmap/ic_launcher"
+       tools:ignore="UnusedAttribute"&gt;
+       &lt;!-- Configuració addicional --&gt;
+   &lt;/application&gt;
+</code></pre>
+<p></manifest>
+   <code>``
+   - **Atributs comuns**:
+     -</code>tools:ignore`: S'utilitza per ignorar avisos o errors que mostra el sistema d'eines d'Android.</p>
+<ol>
+<li><strong>Espai de noms personalitzat (opcional)</strong></li>
+<li>En alguns casos, es poden crear espais de noms personalitzats per a recursos o atributs especials. No és comú a l'<code>AndroidManifest.xml</code>, però podria utilitzar-se en altres fitxers XML que defineixen configuracions d'aplicacions.</li>
+</ol>
+<h3 id="utilitat-dels-espais-de-noms-en-androidmanifestxml"><strong>Utilitat dels espais de noms en AndroidManifest.xml</strong></h3>
+<ul>
+<li><strong>Distinció entre atributs d'Android i altres atributs</strong>: Per exemple, l'atribut <code>android:name</code> dins d'una etiqueta <code>activity</code> indica que l'atribut pertany al conjunt d'atributs del sistema Android.</li>
+<li><strong>Compatibilitat i extensibilitat</strong>: Permet afegir altres espais de noms per a biblioteques de tercers o extensions sense interferir amb els atributs natius d'Android.</li>
+<li><strong>Clarificació del context</strong>: Els espais de noms asseguren que cada atribut s'interpreti correctament segons el seu context.</li>
+</ul>
+<hr />
+<h3 id="conclusio"><strong>Conclusió</strong></h3>
+<p>Els espais de noms són una part essencial per gestionar documents XML en Android. En l'<code>AndroidManifest.xml</code>, el més comú és l'espai de noms <code>xmlns:android</code>, que s'utilitza per a tots els atributs natius d'Android. També es poden utilitzar altres espais de noms per a biblioteques de tercers o eines, com <code>xmlns:tools</code>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
