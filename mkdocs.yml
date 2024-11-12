@@ -1,6 +1,14 @@
 site_name: 'Documentació de les tasques'
+
 theme:
-  name: 'mkdocs'
+  name: 'material'
+  custom_dir: 'docs/overrides'
+  palette:
+    primary: 'green'
+    accent: 'orange'
+    background: 'white'
+    surface: 'grey'
+    error: 'red'
 
 
 extra_css:
