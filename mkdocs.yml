@@ -25,12 +25,12 @@ nav:
     - Scrum: edd/document_6.md
     - RSC Act1: edd/actividad_1sub.md
     - RSC Act2: edd/actividad_2sub.md
-    - RSC Act3: edd/actividad_3.md
+    - RSC Act3: edd/actividad_3sub.md
     - Github: edd/Git (1).md
     - Projecte Ant: edd/proyecto_ant_calculadora.md
     - Projecte Maven Terminal: edd/maven.md
     - Projecte Maven VSCode: edd/devlog-vscode.md
-    - Projecte Maven NeatBeans: edd/devlog-neatbeans.md
+    - Projecte Maven NeatBeans: edd/devlog-netbeans.md
 
 
   - Articles LMI:
@@ -60,7 +60,7 @@ nav:
     - JavaScript Act.8: lmi/bucle_for.js
     - JavaScript Act.9: lmi/bucle_for_of.js
     - JavaScript Act.10: lmi/bucle_while.js
-    - JavaScript Act.1: lmi/funcions.js
+    - JavaScript Act.11: lmi/funcions.js
 
 
 
