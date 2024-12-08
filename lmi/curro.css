@@ -1,0 +1,18 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.foto {
+     width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+ul, ol {
+    margin-left: 20px;
+}
+.seccio {
+    margin-bottom: 20px;
+}
