@@ -50,6 +50,8 @@ nav:
     - HTML Act.12: lmi/E12.html
     - HTML Act.13 & 15: lmi/E13.html
     - HTML Act.14: lmi/E14.html
+    - CSS HOARIO: lmi/hora.css
+    - CSS CV: lmi/curro.css
     - JavaScript Act.1: lmi/variables_operadors.js
     - JavaScript Act.2: lmi/typeof.js
     - JavaScript Act.3: lmi/conversio_tipus.js
