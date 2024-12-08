@@ -23,8 +23,63 @@ nav:
     - L'efecte Bola de neu: edd/document_4.md
     - Projecte de Desenvolupament d'una Pàgina Web: edd/document_5.md
     - Scrum: edd/document_6.md
+    - RSC Act1: edd/actividad_1sub.md
+    - RSC Act2: edd/actividad_2sub.md
+    - RSC Act3: edd/actividad_3.md
+    - Github: edd/Git (1).md
+    - Projecte Ant: edd/proyecto_ant_calculadora.md
+    - Projecte Maven Terminal: edd/maven.md
+    - Projecte Maven VSCode: edd/devlog-vscode.md
+    - Projecte Maven NeatBeans: edd/devlog-neatbeans.md
+
 
   - Articles LMI:
     - Caract. Lenguajes de Marcas: lmi/Caract._LenguajeMarcas.md
     - Espais de noms en documents: lmi/espaisnoms.md
+    - HTML Act.1: lmi/E1.html
+    - HTML Act.2: lmi/E2.html
+    - HTML Act.3: lmi/E3.html
+    - HTML Act.4: lmi/E4.html
+    - HTML Act.5: lmi/E5.html
+    - HTML Act.6: lmi/E6.html
+    - HTML Act.7: lmi/E7.html
+    - HTML Act.8: lmi/E8.html
+    - HTML Act.9: lmi/E9.html
+    - HTML Act.10: lmi/E10.html
+    - HTML Act.11: lmi/E11.html
+    - HTML Act.12: lmi/E12.html
+    - HTML Act.13 & 15: lmi/E13.html
+    - HTML Act.14: lmi/E14.html
+    - JavaScript Act.1: lmi/variables_operadors.js
+    - JavaScript Act.2: lmi/typeof.js
+    - JavaScript Act.3: lmi/conversio_tipus.js
+    - JavaScript Act.4: lmi/vectors.js
+    - JavaScript Act.5: lmi/json_basic.js
+    - JavaScript Act.6: lmi/verifica_hora.js
+    - JavaScript Act.7: lmi/determina_dia.js
+    - JavaScript Act.8: lmi/bucle_for.js
+    - JavaScript Act.9: lmi/bucle_for_of.js
+    - JavaScript Act.10: lmi/bucle_while.js
+    - JavaScript Act.1: lmi/funcions.js
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
